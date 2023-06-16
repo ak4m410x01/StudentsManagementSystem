@@ -1,0 +1,184 @@
+/* Main Rules */
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+.index {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(285deg, #0ae0ea, #0c1f40) !important;
+    z-index: -1;
+}
+/* ------------------------------------------------------------------------------ */
+
+/* Glopal Style */
+nav{
+    padding-bottom: 0 !important;
+}
+/* -------------------------------------------------------------------------- */
+
+/* Bootstrap Edit */
+.nav-link{
+    color: #716f6f;
+}
+.navbar-brand{
+    color: rgb(50, 86, 196) !important;
+}
+.dropdown-menu{
+    padding: 0;
+    margin-top: 0 !important;
+    min-width: 9rem;
+    border-radius: 0;
+}
+.nav-item a:hover,
+.nav-item a:focus{
+    background-color: #0d6efd;
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler :hover,
+.navbar-light .navbar-toggler :focus{
+    color:rgb(50, 86, 196);
+    border-color: rgb(50, 86, 196) !important;
+}
+.btn-primary {
+    margin-top: 5px;
+}
+.btn-success,.btn-danger{
+    padding: 3px 10px;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+/* ------------------------------------------------------------------------------- */
+
+/* Login Form */
+.control {
+    width: 100%;
+    height: 100%;
+}
+.control img {
+    height: 300px;
+    width: 300px;
+    margin-top: 3em;
+    border-radius: 30%;
+}
+.login{
+    margin: 100px auto;
+    margin-top: 40px !important;
+    border: solid 1px #555;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #333;
+}
+.login h3{
+    color: #fff;
+}
+.login .asterisk {
+    display: none;
+}
+.login input{
+    margin-bottom: 10px !important;
+    padding-left: 35px !important;
+}
+.login .input {
+    position: relative;
+}
+.login .input i{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #3845ded9;
+}
+.input .visual-password {
+    color: #000 !important;
+    top: 12px !important;
+    left: inherit !important;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------- */
+
+/* Members Page */
+label{
+    font-weight:bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+h1{
+    font-size: 55px;
+    margin: 30px 0;
+    color: #3845ded9;
+}
+/* Main Table */
+.main-table{
+    box-shadow: 0px 2px 18px #ccc;
+}
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+
+}
+.main-table thead td{
+    background-color: #333 !important;
+    color: #fff;
+}
+.main-table .activate {
+    margin-left: 5px;
+    color: #fff;
+}
+.main-table .btn {
+    margin-top: 5px !important;
+}
+/* ------------------------------------------------------------------------------- */
+
+/* Dashboard Page */
+.home-stats .stat {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.home-stats .stat a {
+    color: #fff;
+    text-decoration: none;
+}
+.stat span {
+    display: block;
+    font-size: 60px;
+}
+.home-stats .st-firstyear {
+    background-color: #3498db;
+}
+.home-stats .st-secondyear {
+    background-color: #c0392b;
+}
+.home-stats .st-thirdyear {
+    background-color: #d35400;
+}
+/* ------------------------------------------------------------------------------- */
+
+/* Media Query */
+@media (min-width: 992px) {
+    .dropdown{
+        left: 35vw;
+    }
+    .login{
+        margin-top: 190px !important;
+    }
+    .input .visual-password {
+        left: inherit !important;
+        right: 15px !important;
+    }
+    .control img {
+        margin-top: 9em;
+        margin-left: 3em;
+    }
+}
